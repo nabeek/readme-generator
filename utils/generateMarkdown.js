@@ -38,7 +38,7 @@ ${usage}
 
 # License
 
-![${license}](${licenses["license"]})
+![${license}](${licenses.license})
 
 # Contributing
 
@@ -50,8 +50,8 @@ ${tests}
 
 # Questions
 
-
-![GitHub followers](https://img.shields.io/github/followers/${username}?style=social)
+![GitHub avatar](https://github.com/${username}.png?size=150)
+[![GitHub followers](https://img.shields.io/github/followers/${username}?style=social)](https://github.com/${username})
 
 If you have any questions, feel free to reach out at ${email}
 

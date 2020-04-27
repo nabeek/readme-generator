@@ -36,7 +36,7 @@ a
 # Questions
 
 
-![GitHub followers](https://img.shields.io/github/followers/nabeek?style=social)
+[![GitHub followers](https://img.shields.io/github/followers/nabeek?style=social)](https://github.com/nabeek)
 
 If you have any questions, feel free to reach out at a
 

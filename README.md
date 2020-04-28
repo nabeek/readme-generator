@@ -17,10 +17,9 @@ Then, invoke the application using ```node index.js```
 **Built with:**
 
 [Node](https://nodejs.org/en/)\
-[NPM](https://www.npmjs.com/)
-* [inquirer](https://www.npmjs.com/package/inquirer)
-* [file-system](https://www.npmjs.com/package/file-system)
-
+[File System](https://nodejs.org/api/fs.html)\
+[NPM](https://www.npmjs.com/)\
+[Inquirer](https://www.npmjs.com/package/inquirer)\
 [Shields IO](https://shields.io/)
 
 ## Code Sample

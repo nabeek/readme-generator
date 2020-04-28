@@ -15,6 +15,10 @@ const questions = [
         message: "What is your project's title?"
     },
     {
+        name: "repo-link",
+        message: "Provide a URL to the project's repository:"
+    },
+    {
         name: "description",
         message: "Provide a description for your project:"
     },
@@ -36,9 +40,15 @@ const questions = [
             "GPLv3",
             "MIT",
             "MPL 2.0",
-            "None"
+            "none",
+            "Other"
         ]
     },
+        {
+            name: "other-license",
+            message: "Provide the name of the license you are using:",
+            when: (answers) => answers.license === "Other"
+        },
     {
         name: "contributing",
         message: "Provide any instructions for contributing:"

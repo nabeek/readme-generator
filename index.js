@@ -66,7 +66,7 @@ const questions = [
 
 async function init() {
     const data = await inquirer.prompt(questions);
-    await writeFileAsync("test.md", generateMarkdown(data));
+    await writeFileAsync("project.md", generateMarkdown(data));
 };
 
 init();
